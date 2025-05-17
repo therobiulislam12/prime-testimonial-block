@@ -13,8 +13,32 @@ return array(
 		'example' => array(
 			
 		),
+		'attributes' => array(
+			'description' => array(
+				'type' => 'string',
+				'default' => ''
+			),
+			'user_name' => array(
+				'type' => 'string',
+				'default' => ''
+			),
+			'user_company_name' => array(
+				'type' => 'string',
+				'default' => ''
+			),
+			'user_image' => array(
+				'type' => 'object',
+				'default' => array(
+					'id' => 0,
+					'alt' => '',
+					'url' => ''
+				)
+			)
+		),
 		'supports' => array(
-			'html' => false
+			'html' => false,
+			'align' => true,
+			'anchor' => true
 		),
 		'textdomain' => 'prime-testimonial-block',
 		'editorScript' => 'file:./index.js',

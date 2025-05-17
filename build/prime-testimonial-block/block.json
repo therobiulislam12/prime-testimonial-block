@@ -8,8 +8,32 @@
   "icon": "smiley",
   "description": "Example block scaffolded with Create Block tool.",
   "example": {},
+  "attributes": {
+    "description": {
+      "type": "string",
+      "default": ""
+    },
+    "user_name": {
+      "type": "string",
+      "default": ""
+    },
+    "user_company_name": {
+      "type": "string",
+      "default": ""
+    },
+    "user_image": {
+      "type": "object",
+      "default": {
+        "id": 0,
+        "alt": "",
+        "url": ""
+      }
+    }
+  },
   "supports": {
-    "html": false
+    "html": false,
+    "align": true,
+    "anchor": true
   },
   "textdomain": "prime-testimonial-block",
   "editorScript": "file:./index.js",
