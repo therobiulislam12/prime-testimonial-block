@@ -4,5 +4,5 @@
  */
 ?>
 <p <?php echo get_block_wrapper_attributes(); ?>>
-	<?php esc_html_e( 'Prime Testimonial Block – hello from a dynamic block!', 'prime-testimonial-block' ); ?>
+	<?php esc_html_e( 'Slider – hello from a dynamic block!', 'prime-testimonial-block' ); ?>
 </p>
