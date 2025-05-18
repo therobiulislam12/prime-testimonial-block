@@ -36,7 +36,22 @@ return array(
 			
 		),
 		'supports' => array(
-			'html' => false
+			'html' => false,
+			'align' => true
+		),
+		'attributes' => array(
+			'review' => array(
+				'type' => 'string',
+				'default' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+			),
+			'user_name' => array(
+				'type' => 'string',
+				'default' => 'Jhone Doe'
+			),
+			'user_company_name' => array(
+				'type' => 'string',
+				'default' => 'Company Name'
+			)
 		),
 		'textdomain' => 'prime-testimonial-block',
 		'editorScript' => 'file:./index.js',
