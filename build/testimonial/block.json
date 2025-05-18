@@ -19,7 +19,7 @@
     },
     "user_name": {
       "type": "string",
-      "default": "Jhone Doe"
+      "default": "Jhon Doe"
     },
     "user_company_name": {
       "type": "string",

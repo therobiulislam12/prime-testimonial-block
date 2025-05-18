@@ -46,7 +46,7 @@ return array(
 			),
 			'user_name' => array(
 				'type' => 'string',
-				'default' => 'Jhone Doe'
+				'default' => 'Jhon Doe'
 			),
 			'user_company_name' => array(
 				'type' => 'string',
