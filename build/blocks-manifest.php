@@ -51,6 +51,14 @@ return array(
 			'user_company_name' => array(
 				'type' => 'string',
 				'default' => 'Company Name'
+			),
+			'user_image' => array(
+				'type' => 'object',
+				'default' => array(
+					'id' => '',
+					'alt' => '',
+					'url' => ''
+				)
 			)
 		),
 		'textdomain' => 'prime-testimonial-block',

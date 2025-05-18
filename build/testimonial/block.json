@@ -24,6 +24,14 @@
     "user_company_name": {
       "type": "string",
       "default": "Company Name"
+    },
+    "user_image": {
+      "type": "object",
+      "default": {
+        "id": "",
+        "alt": "",
+        "url": ""
+      }
     }
   },
   "textdomain": "prime-testimonial-block",
